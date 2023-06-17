@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  height: 100vh;
+  padding: 25px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: Roboto;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 90%;
+  padding-left: 22%;
+
+  border-radius: 10px;
+}
+.heading {
+  font-family: Roboto;
+  color: #000000;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.count-color {
+  color: #ffd569;
+}
+
+.img-order {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 60%;
+  margin-right: 15%;
+}
+
+.image {
+  height: 40%;
+}
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border-style: none;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 20px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
